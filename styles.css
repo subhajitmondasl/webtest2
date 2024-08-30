@@ -1,0 +1,207 @@
+/* Base Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #fef7e7;
+    color: #4b3b40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: flex-end;
+    background-color: #d8a48f;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4b3b40;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('WhatsApp\ Image\ 2024-08-23\ at\ 11.13.37_9c92708d.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #4b3b40;
+}
+
+.welcome p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #8c4646;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+a:hover{
+    font-size: 150%;
+}
+img:hover{
+    
+        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      
+}
+
+/* Overview Section */
+.header-image {
+    background-image: url('natural-history-museum-2203648_640.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9e2af;
+    flex-wrap: wrap;
+}
+
+.overview .content {
+    flex: 1;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+.overview .images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid #e3d7c1;
+}
+
+/* Insights Section */
+.insights {
+    display: flex;
+    padding: 50px;
+    background-color: #e4c1b9;
+    flex-wrap: wrap;
+}
+
+.insights .left-column,
+.insights .right-column {
+    flex: 1;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+.insights img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #d8a48f;
+}
+
+/* Explore Section */
+.explore {
+    padding: 50px;
+    background-color: #c2d6c2;
+}
+
+.explore .map {
+    background-color: #f2b97f;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.explore .treasures img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 5px solid #d8a48f;
+}
+
+/* Footer */
+footer {
+    background-image: url('Howrah-bridge.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+footer .social-icons {
+    list-style-type: none;
+    display: flex;
+}
+
+footer .social-icons li {
+    margin: 0 10px;
+}
+
+footer .social-icons li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.treasures{
+    /* flex: 1; */
+    /* margin-right: 20px; */
+    width: auto; 
+    display: flex;
+    padding: 50px;
+    background-color: #e4c1b9;
+    flex-wrap: wrap;
+}
+.chatbot{
+    
+    width: 400px;
+    height: 500px;
+    justify-items: center;
+    
+}
+.logo{
+    width:auto;
+    height: 70px;
+    /* justify-content: first baseline; */
+    justify-content: center;
+    align-items: center;
+}
